@@ -15,16 +15,14 @@ public class bilheteUnico {
         usuario = new Usuario(cpf,nome,perfil);
     }
 
-    //metodo carregar o bilhete
     public double carregaBilhete(double carga){
         return saldo+=carga;
     }
-    //metodo consultar saldo
+
     public double consultarSaldo(){
         return saldo;
     }
 
-    //metodo para passar na catraca
     public String catraca(){
         if(saldo>=TARIFA/2) {
             if (usuario.perfil.equalsIgnoreCase("Comum")) {

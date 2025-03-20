@@ -1,4 +1,4 @@
-package exercicioBilhete;
+package Teste;
 
 import java.util.Scanner;
 
